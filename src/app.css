@@ -1,0 +1,96 @@
+@import 'tailwindcss';
+@font-face {
+  font-family: 'Minecraft-Ten';
+  src: url('/fonts/Minecraft-ten.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Minecraft-regular';
+  src: url('/fonts/MinecraftRegular-Bmg3.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(53, 53, 53);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #5c5c5c;
+}
+
+
+.mcbutton{
+    font-family: Minecraft-ten;
+    font-size: 1.6rem;
+    color: white !important;
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+    padding-bottom: 15px !important;
+    padding-top: 10px !important;
+    box-shadow: 0px 4px 0px 0px rgba(255, 255, 255, 0.137) inset, 0px -4px 0px 0px rgba(0, 0, 0, 0.241) inset, 5px 5px 36px #0000001a;
+    transition: all 0.3s;
+        src: url('/fonts/Minecraft-ten.ttf')
+}
+.mct {
+    font-family: Minecraft-ten;
+        src: url('/fonts/Minecraft-ten.ttf')
+}
+.gradient{
+    font-family: Minecraft-ten;
+    background: linear-gradient(90deg, rgb(243, 240, 52), rgb(219, 161, 2));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    src: url('/fonts/Minecraft-ten.ttf')
+}
+
+.gradientbutton{
+    background: linear-gradient(90deg, rgb(243, 240, 52), rgb(219, 161, 2));
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -ms-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+    border:none !important;
+    transition: all 0.3s !important;
+    -webkit-transition: all 0.3s !important;
+    -moz-transition: all 0.3s !important;
+    -ms-transition: all 0.3s !important;
+    -o-transition: all 0.3s !important;
+}
+  .mcbutton:hover {
+    box-shadow: 0px 4px 0px 0px rgba(255, 255, 255, 0.137) inset, 0px -100px 0px 0px rgba(0, 0, 0, 0.241) inset, 5px 5px 36px #0000001a;
+  }
+  .mcbutton:active{
+    color: white !important;
+    background: #252525 !important;
+    transition: all 0.3s !important;
+    -webkit-transition: all 0.3s !important;
+    -moz-transition: all 0.3s !important;
+    -ms-transition: all 0.3s !important;
+    -o-transition: all 0.3s !important;
+}
+.mcsection {
+  
+  background: #282828;
+    margin: 20px auto; /* centers horizontally */
+    box-shadow: 0px 4px 0px 0px rgba(255, 255, 255, 0.137) inset, 0px -4px 0px 0px rgba(0, 0, 0, 0.241) inset, 5px 5px 36px #0000001a;
+
+}
+.html{
+  scroll-behavior: smooth !important;
+}
+body{
+    background-color: #2e2c2c;
+}
+.whitetext {
+
+  color: white;
+}
